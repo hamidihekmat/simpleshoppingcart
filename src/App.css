@@ -1,0 +1,54 @@
+* {
+	font-family: sans-serif;
+}
+.App {
+	display: flex;
+}
+
+.items {
+	width: 50%;
+	padding: 1rem;
+}
+
+.cart {
+	width: 50%;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+
+img {
+	display: block;
+	width: 300px;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	background: white;
+	margin-bottom: 1rem;
+	border: 1px solid gray;
+	padding: 0.8rem;
+	border-radius: 15px;
+	font-size: 1.5rem;
+	-webkit-box-shadow: -2px 5px 13px -6px rgba(0, 0, 0, 0.54);
+	box-shadow: -2px 5px 13px -6px rgba(0, 0, 0, 0.54);
+}
+
+button {
+	background: lightcoral;
+	border: none;
+	padding: 10px 7px;
+	font-size: inherit;
+	color: white;
+	margin: 0 1px;
+}
+button:hover {
+	cursor: pointer;
+	background: coral;
+}
+
+.cart-image {
+	width: 40px;
+	display: block;
+}
